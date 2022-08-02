@@ -1,11 +1,12 @@
 import express from "express";
 import cors from "cors";
-import mongoose from "mongoose";
-import { ServerApiVersion } from "mongodb";
-// import UserController from './controllers/UserController';
 import routes from "./routes";
-// import cria_tabela from './infra/cria_tabelas';
 import Database from "./database";
+
+// import mongoose from "mongoose";
+// import { ServerApiVersion } from "mongodb";
+// import UserController from './controllers/UserController';
+// import cria_tabela from './infra/cria_tabelas';
 
 class App {
   public express: express.Application;
